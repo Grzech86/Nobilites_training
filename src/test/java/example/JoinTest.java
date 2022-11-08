@@ -1,5 +1,9 @@
 package example;
 
+import Nobilities.example.Customer;
+import Nobilities.example.CustomizedOrder;
+import Nobilities.example.Joiner;
+import Nobilities.example.Order;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
