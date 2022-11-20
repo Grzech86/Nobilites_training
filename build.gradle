@@ -1,27 +1,40 @@
 plugins {
+    id 'org.springframework.boot' version '2.7.5'
+    id 'io.spring.dependency-management' version '1.0.15.RELEASE'
     id 'java'
 }
 
-group 'org.example'
-version '1.0-SNAPSHOT'
+group = 'pl.nobilites'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.4'
-    implementation platform('io.projectreactor:reactor-bom:2020.0.23')
-    implementation 'io.projectreactor:reactor-core'
-    implementation 'io.projectreactor:reactor-test'
-    implementation 'io.projectreactor.netty:reactor-netty-core'
-    implementation 'io.projectreactor.netty:reactor-netty-http'
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
-    dependencies { testImplementation "org.mockito:mockito-core:3.+" }
-
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-webflux'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    compileOnly 'org.projectlombok:lombok'
+    testImplementation 'com.h2database:h2'
+    implementation 'org.postgresql:postgresql'
+    annotationProcessor 'org.projectlombok:lombok'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'io.projectreactor:reactor-test'
 }
 
-test {
+tasks.named('test') {
     useJUnitPlatform()
 }
