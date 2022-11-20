@@ -4,10 +4,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import pl.nobilites.parking.controllers.Accountant;
-import pl.nobilites.parking.controllers.PlateController;
-import pl.nobilites.parking.controllers.SlotController;
-import pl.nobilites.parking.domain.rest.*;
+import parking.controllers.Accountant;
+import parking.controllers.PlateController;
+import parking.controllers.SlotController;
+import parking.domain.rest.*;
 
 import java.math.BigDecimal;
 import java.util.List;

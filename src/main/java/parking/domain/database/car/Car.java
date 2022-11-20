@@ -4,7 +4,7 @@ import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import pl.nobilites.parking.domain.database.user.Identifier;
+import parking.domain.database.user.Identifier;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

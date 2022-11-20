@@ -1,6 +1,6 @@
 package parking.domain.database.car;
 
-import pl.nobilites.parking.domain.database.user.Identifier;
+import parking.domain.database.user.Identifier;
 
 import java.io.Serializable;
 

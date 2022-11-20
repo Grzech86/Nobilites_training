@@ -1,5 +1,6 @@
 package Nobilites.ex67;
 
+import Nobilities.ex67.CalculatorMain;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

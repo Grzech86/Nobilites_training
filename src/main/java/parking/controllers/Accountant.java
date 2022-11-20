@@ -1,14 +1,18 @@
 package parking.controllers;
 
 import org.springframework.stereotype.Controller;
-import pl.nobilites.parking.domain.BalanceResult;
-import pl.nobilites.parking.domain.CreditResult;
-import pl.nobilites.parking.domain.DebitResult;
-import pl.nobilites.parking.domain.OperationType;
-import pl.nobilites.parking.domain.database.user.Identifier;
-import pl.nobilites.parking.domain.database.user.Operation;
-import pl.nobilites.parking.domain.rest.BalanceRequest;
-import pl.nobilites.parking.repositories.BalanceRepository;
+import parking.domain.BalanceResult;
+import parking.domain.OperationType;
+import parking.domain.rest.BalanceRequest;
+import parking.repositories.BalanceRepository;
+import parking.domain.BalanceResult;
+import parking.domain.CreditResult;
+import parking.domain.DebitResult;
+import parking.domain.OperationType;
+import parking.domain.database.user.Identifier;
+import parking.domain.database.user.Operation;
+import parking.domain.rest.BalanceRequest;
+import parking.repositories.BalanceRepository;
 
 import java.math.BigDecimal;
 

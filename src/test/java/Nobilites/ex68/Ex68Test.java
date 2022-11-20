@@ -1,5 +1,6 @@
 package Nobilites.ex68;
 
+import Nobilities.ex68.Ex68;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

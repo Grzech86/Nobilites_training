@@ -1,7 +1,7 @@
 package parking.domain.database.parking;
 
 import lombok.*;
-import pl.nobilites.parking.domain.SlotStatus;
+import parking.domain.SlotStatus;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

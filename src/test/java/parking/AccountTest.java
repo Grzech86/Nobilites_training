@@ -4,8 +4,8 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import pl.nobilites.parking.domain.database.user.Account;
-import pl.nobilites.parking.domain.database.user.Identifier;
+import parking.domain.database.user.Account;
+import parking.domain.database.user.Identifier;
 
 class AccountTest {
 

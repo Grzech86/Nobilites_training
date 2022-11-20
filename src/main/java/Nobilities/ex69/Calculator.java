@@ -1,6 +1,6 @@
 package Nobilities.ex69;
 
-import Account.Main;
+import Nobilities.Account.Main;
 
 import javax.naming.OperationNotSupportedException;
 import java.lang.reflect.Proxy;

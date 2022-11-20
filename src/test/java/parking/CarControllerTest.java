@@ -6,10 +6,10 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import pl.nobilites.parking.controllers.PlateController;
-import pl.nobilites.parking.domain.database.car.Plate;
-import pl.nobilites.parking.domain.database.user.Identifier;
-import pl.nobilites.parking.repositories.CarRepository;
+import parking.controllers.PlateController;
+import parking.domain.database.car.Plate;
+import parking.domain.database.user.Identifier;
+import parking.repositories.CarRepository;
 
 @SpringBootTest
 public class CarControllerTest {

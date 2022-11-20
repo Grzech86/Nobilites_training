@@ -1,6 +1,9 @@
 package Nobilites.ex38;
 
+import Nobilities.ex38.Account;
+import Nobilities.ex38.LoggingAccountDecorator;
 import org.junit.jupiter.api.Test;
+
 
 class MainCurrencyResponseTest {
     @Test

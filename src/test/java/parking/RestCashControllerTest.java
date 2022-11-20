@@ -8,11 +8,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import pl.nobilites.parking.controllers.AccountController;
-import pl.nobilites.parking.domain.BalanceResult;
-import pl.nobilites.parking.domain.rest.*;
-import pl.nobilites.parking.rest.RestAccountController;
-import pl.nobilites.parking.rest.RestCashController;
+import parking.controllers.AccountController;
+import parking.domain.BalanceResult;
+import parking.domain.rest.*;
+import parking.rest.RestAccountController;
+import parking.rest.RestCashController;
 
 import java.math.BigDecimal;
 

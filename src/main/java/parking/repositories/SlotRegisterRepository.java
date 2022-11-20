@@ -2,8 +2,8 @@ package parking.repositories;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
-import pl.nobilites.parking.domain.database.car.Plate;
-import pl.nobilites.parking.domain.database.parking.SlotRegister;
+import parking.domain.database.car.Plate;
+import parking.domain.database.parking.SlotRegister;
 
 import java.util.Optional;
 

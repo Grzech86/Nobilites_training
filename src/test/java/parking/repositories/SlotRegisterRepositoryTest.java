@@ -4,8 +4,8 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import pl.nobilites.parking.domain.database.car.Plate;
-import pl.nobilites.parking.domain.database.parking.SlotRegister;
+import parking.domain.database.car.Plate;
+import parking.domain.database.parking.SlotRegister;
 
 @SpringBootTest
 class SlotRegisterRepositoryTest {

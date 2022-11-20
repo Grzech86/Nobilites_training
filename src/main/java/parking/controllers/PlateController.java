@@ -1,10 +1,10 @@
 package parking.controllers;
 
 import org.springframework.stereotype.Controller;
-import pl.nobilites.parking.domain.database.car.Car;
-import pl.nobilites.parking.domain.database.car.Plate;
-import pl.nobilites.parking.domain.database.user.Identifier;
-import pl.nobilites.parking.repositories.CarRepository;
+import parking.domain.database.car.Car;
+import parking.domain.database.car.Plate;
+import parking.domain.database.user.Identifier;
+import parking.repositories.CarRepository;
 
 import java.util.List;
 

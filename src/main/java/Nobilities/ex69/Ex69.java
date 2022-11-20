@@ -1,6 +1,7 @@
 package Nobilities.ex69;
 
-import Account.Main;
+
+import Nobilities.Account.Main;
 
 import java.lang.reflect.Proxy;
 

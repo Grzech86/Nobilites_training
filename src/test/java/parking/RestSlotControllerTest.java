@@ -8,11 +8,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.ApplicationContext;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.reactive.server.WebTestClient;
-import pl.nobilites.parking.domain.database.car.Plate;
-import pl.nobilites.parking.domain.rest.*;
-import pl.nobilites.parking.domain.rest.TakeResponse;
-import pl.nobilites.parking.rest.RestAccountController;
-import pl.nobilites.parking.rest.RestSlotController;
+import parking.domain.database.car.Plate;
+import parking.domain.rest.*;
+import parking.domain.rest.TakeResponse;
+import parking.rest.RestAccountController;
+import parking.rest.RestSlotController;
 
 import java.util.List;
 

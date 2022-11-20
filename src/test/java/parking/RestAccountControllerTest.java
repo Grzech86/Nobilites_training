@@ -6,10 +6,10 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import pl.nobilites.parking.domain.database.user.Identifier;
-import pl.nobilites.parking.domain.rest.*;
-import pl.nobilites.parking.repositories.AccountRepository;
-import pl.nobilites.parking.rest.RestAccountController;
+import parking.domain.database.user.Identifier;
+import parking.domain.rest.*;
+import parking.repositories.AccountRepository;
+import parking.rest.RestAccountController;
 
 @SpringBootTest
 class RestAccountControllerTest {

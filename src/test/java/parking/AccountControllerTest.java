@@ -8,9 +8,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import pl.nobilites.parking.controllers.AccountController;
-import pl.nobilites.parking.domain.database.user.Identifier;
-import pl.nobilites.parking.repositories.CarRepository;
+import parking.controllers.AccountController;
+import parking.domain.database.user.Identifier;
+import parking.repositories.CarRepository;
+import parking.controllers.AccountController;
+import parking.domain.database.user.Identifier;
+import parking.repositories.CarRepository;
 
 @SpringBootTest
 class AccountControllerTest {

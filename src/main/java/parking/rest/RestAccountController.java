@@ -1,8 +1,8 @@
 package parking.rest;
 
 import org.springframework.web.bind.annotation.*;
-import pl.nobilites.parking.controllers.AccountController;
-import pl.nobilites.parking.domain.rest.*;
+import parking.controllers.AccountController;
+import parking.domain.rest.*;
 
 @RestController
 @RequestMapping("accounts")

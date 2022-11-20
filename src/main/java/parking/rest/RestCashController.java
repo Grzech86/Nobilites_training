@@ -3,10 +3,10 @@ package parking.rest;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import pl.nobilites.parking.controllers.Accountant;
-import pl.nobilites.parking.domain.BalanceResult;
-import pl.nobilites.parking.domain.DebitResult;
-import pl.nobilites.parking.domain.rest.*;
+import parking.controllers.Accountant;
+import parking.domain.BalanceResult;
+import parking.domain.DebitResult;
+import parking.domain.rest.*;
 
 @RestController
 public class RestCashController {

@@ -1,5 +1,9 @@
 package Nobilites.ex40;
 
+import Nobilities.ex40.Calculator;
+import Nobilities.ex40.CalculatorFirst;
+import Nobilities.ex40.CalculatorOperation;
+import Nobilities.ex40.CalculatorOther;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

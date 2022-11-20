@@ -1,15 +1,15 @@
 package parking.controllers;
 
 import org.springframework.stereotype.Controller;
-import pl.nobilites.parking.domain.database.car.Car;
-import pl.nobilites.parking.domain.database.car.Plate;
-import pl.nobilites.parking.domain.database.user.Account;
-import pl.nobilites.parking.domain.database.user.Identifier;
-import pl.nobilites.parking.domain.rest.AccountCreationResult;
-import pl.nobilites.parking.domain.rest.AccountDeleteResult;
-import pl.nobilites.parking.domain.rest.PlatesModificationResult;
-import pl.nobilites.parking.repositories.AccountRepository;
-import pl.nobilites.parking.repositories.CarRepository;
+import parking.domain.database.car.Car;
+import parking.domain.database.car.Plate;
+import parking.domain.database.user.Account;
+import parking.domain.database.user.Identifier;
+import parking.domain.rest.AccountCreationResult;
+import parking.domain.rest.AccountDeleteResult;
+import parking.domain.rest.PlatesModificationResult;
+import parking.repositories.AccountRepository;
+import parking.repositories.CarRepository;
 
 import java.util.Arrays;
 import java.util.Optional;

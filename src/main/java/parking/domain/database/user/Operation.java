@@ -4,7 +4,7 @@ import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import pl.nobilites.parking.domain.OperationType;
+import parking.domain.OperationType;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

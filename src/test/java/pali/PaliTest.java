@@ -1,4 +1,4 @@
-package Nobilites.pali;
+package pali;
 
 import Nobilities.pali.Palin;
 import org.junit.jupiter.api.Assertions;

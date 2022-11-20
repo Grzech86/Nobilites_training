@@ -3,8 +3,8 @@ package parking.repositories;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import pl.nobilites.parking.domain.SlotStatus;
-import pl.nobilites.parking.domain.database.Ticket;
+import parking.domain.SlotStatus;
+import parking.domain.database.Ticket;
 
 import java.time.Instant;
 
